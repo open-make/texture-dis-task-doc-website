@@ -1,0 +1,9 @@
+m6_screw:
+    Name: M6 Hex Socket Cap Screw
+    Description: RS PRO M6 x 20mm Hex Socket Cap Screw Plain Stainless Steel
+    Specs:
+        Material: Stainless steel
+    Suppliers:
+        Thorlabs:
+            PartNo: 281-120
+            Link: 'https://uk.rs-online.com/web/p/socket-screws/0281120'

@@ -1,0 +1,84 @@
+Arduino_Due:
+    Name: Arduino Board Due Core
+    Description: Microcontroller
+    Suppliers:
+        Digi-Key Electronics:
+            PartNo: 1050-1024-ND
+            Link: 'https://www.digikey.de/de/products/detail/arduino/A000066/2784006'
+
+
+
+circuit_board:
+    Name: BB-32621
+    Description: Circuit board
+    Suppliers:
+        Digi-Key Electronics:
+            PartNo: 377-2094-ND
+            Link: 'https://www.digikey.de/de/products/detail/bud-industries/BB-32621/4156445'
+
+
+
+
+pv:
+    Name: pinch valve
+    Description: 2-way normally closed pinch valve
+    Specs:
+        Manufactorer: Bio-Chem Fluidics
+        Tubing: OD = 2,4mm, ID = 0,8mm
+    Suppliers:
+        BIOZOL Diagnostica Vertrieb GmbH:
+            PartNo: 075P2NC12-01S
+            Link: 'https://www.lab-club.com/2-way-NC-pinch-valve-type-075P2NC12-01S'
+
+
+pv_tube:
+    Name: Silicon Select tubing
+    Description: Silicon tube (OD = 2,4mm, ID = 0,8mm)
+    Specs:
+        Manufactorer: Bio-Chem Fluidics
+    Suppliers:
+        BIOZOL Diagnostica Vertrieb GmbH:
+            PartNo: 10025-01S
+            Link: 'https://www.lab-club.com/Silicon-Select-tubing-type-10025-01S-50-feet-approx-152-m'
+
+pv_clamp:
+    Name: pinch valve clamp
+    Description: 
+    Specs:
+        Manufactorer: Bio-Chem Fluidics
+    Suppliers:
+        BIOZOL Diagnostica Vertrieb GmbH:
+            PartNo: 075P2NC12-01S
+            Link: 'https://www.lab-club.com/Mounting-clip-for-type-075-valves'
+
+
+jumper_wires:
+    Name: Jumper wires
+    Description: Wires to connect the electronic devices at the circuit board
+    Suppliers:
+        Digikey:
+            PartNo: 1568-1511-ND
+            Link: 'https://www.digikey.de/en/products/detail/sparkfun-electronics/PRT-12794/5993859'
+            PartNo: 1568-1512-ND
+            Link: 'https://www.digikey.de/en/products/detail/sparkfun-electronics/PRT-12795/5993860'
+            PartNo: 1568-1513-ND
+            Link: 'https://www.digikey.de/en/products/detail/sparkfun-electronics/PRT-12796/5993861'
+
+bpod:
+    Name: Bpod State Machine r2+
+    Description: Open control system for precision animal behavior measurement
+    Suppliers:
+        Sanworks:
+            PartNo: 1036
+            Link: 'https://sanworks.io/shop/viewproduct?productID=1036'
+
+bpod_shield:
+    Name: Bpod Arduino Shield
+    Description: Interfaces Bpod state machine with 32-bit Arduino boards 
+    Suppliers:
+        Sanworkds:
+            PartNo: 1012
+            Link: 'https://sanworks.io/shop/viewproduct?productID=1012'
+
+
+

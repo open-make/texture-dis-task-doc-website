@@ -1,0 +1,18 @@
+screwdriver:
+    Name: Screwdriver
+    Description: A tool to drive screws with a max. torque around 50-100 Nm
+
+1mmdrill:
+    Name: 1 mm drill
+    Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas
+
+
+drillrig:
+    Name: Drill rig
+    Description: A stand for a drilling machine with adjustable depth
+
+
+
+soldering:
+    Name: soldering station
+    Description: A soldering station for small components

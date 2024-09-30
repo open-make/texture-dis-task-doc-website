@@ -1,0 +1,23 @@
+5mmNuts_angle:
+    Name: Frame Angle
+    Description: 5mm Frame angle
+    Specs:
+        Material: EN AC-46100 equivalent
+    Suppliers:
+        Misumi:
+            PartNo: HBLFSNF5-C-SSP
+            Link: 'https://de.misumi-ec.com/vona2/detail/110300437260/?HissuCode=HBLFSNF5-C-SSP'
+        Conrad:
+            PartNo: TC-10493184
+            Link: 'https://www.conrad.de/de/p/tru-components-bracket-2020-tc-10493184-verstaerkung-90-aluminium-1-st-2623296.html?searchType=SearchRedirect&refresh=true#productDescription'
+
+5mmNuts:
+    Name: Frame nut 
+    Description: 5mm Nut with M5 (for 20mm frame)
+    Specs:
+        Material: Zinc plated stell (Ball Stainless Steel)
+    Suppliers:
+        RS Components:
+            PartNo: 180-9104
+            Link: 'https://de.rs-online.com/web/p/verbindungselemente/1809104'
+

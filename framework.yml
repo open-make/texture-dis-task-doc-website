@@ -1,0 +1,77 @@
+smallrig_articulated_arm:
+    Name: Articulated arm by SmallRig
+    Description: Articulated arm with 1/4" thread on both sides
+    Suppliers:
+        SmallRig:
+            PartNo: 2066B
+            Link: 'https://smallrig.com.de/smallrig-articulating-arm-9-5-inches-2066.html'
+
+
+smallrig_super_clamp:
+    Name: Super clamp by SmallRig
+    Description: Super clamp with 1/4" and 3/8" thread
+    Suppliers:
+        SmallRig:
+            PartNo: 735
+            Link: 'https://smallrig.com.de/smallrig-super-clamp-w-1-4-and-3-8-thread-735.html'
+        
+MB3045_M:
+    Name: MB3045/M 
+    Description: MB3045/M - Aluminum Breadboard, 300 mm x 450 mm x 12.7 mm, M6 Taps              
+    Specs:
+        Material: Aluminum
+    Suppliers:
+        Thorlabs:
+            PartNo: MB3045/M
+            Link: 'https://www.thorlabs.com/thorproduct.cfm?partnumber=MB3045/M'
+
+MB1030_M:
+    Name: MB1030/M
+    Description: MB1030/M - Aluminum Breadboard, 100 mm x 300 mm x 12.7 mm, M6 Taps
+    Specs:
+        Material: MB1030/M
+    Suppliers:
+        Thorlabs:
+            PartNo: MB1030/M
+            Link: 'https://www.thorlabs.com/thorproduct.cfm?partnumber=MB1030/M'
+
+P300_M:
+    Name: P300/M
+    Description: P300/M - Ø1.5" Mounting Post, M6 Taps, L = 300 mm  
+    Specs:
+        Material: Stainless steel
+    Suppliers:
+        Thorlabs:
+            PartNo: P300/M
+            Link: 'https://www.thorlabs.com/thorproduct.cfm?partnumber=P300/M'
+
+SS6MS20:
+    Name: SS6MS20
+    Description: SS6MS20 - M6 x 1.0 Stainless Steel Setscrew, 20 mm Long, 25 Pack 
+    Specs:
+        Material: SS6MS20
+    Suppliers:
+        Thorlabs:
+            PartNo: SS6MS20
+            Link: 'https://www.thorlabs.com/thorproduct.cfm?partnumber= SS6MS20'
+
+RS4M:
+    Name: RS4M
+    Description: RS4M - Ø25.0 mm Post Spacer, Thickness = 4 mm
+    Specs:
+        Material: RS4M
+    Suppliers:
+        Thorlabs:
+            PartNo: RS4M
+            Link: 'https://www.thorlabs.com/thorproduct.cfm?partnumber= RS4M'
+
+
+C1515_M:
+    Name: C1515/M 
+    Description: C1515/M - Ø1.5" Mounting Post Bracket, M6 Taps 
+    Suppliers:
+        Thorlabs:
+            PartNo: RS4M
+            Link: 'https://www.thorlabs.com/thorproduct.cfm?partnumber=C1515/M'
+
+
