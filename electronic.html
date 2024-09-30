@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Construct your texture discrimination task setup!</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
+
+    <link href="./static/style.css" rel="stylesheet">
+                  <style>
+    .nav-list a.navhome, .sub-nav-list a.navhome{
+      background-color: #f1502f !important;
+    }
+    .gallery-thumb img:hover {
+      border: 4px solid #f1502f;
+    }
+  </style>
+<style>
+  .nav-list a.active, .sub-nav-list a.active {
+    background-color: #cccccc !important;
+  }
+</style>
+<style>
+  .nav-list a:hover:not(.active), .sub-nav-list a:hover:not(.active) {
+    background-color: #555555 !important;
+  }
+</style>
+<style>
+.gallery-show img {
+  border: none;
+}
+</style>
+<style>
+.gallery-show img {
+  background: none;
+}
+</style>
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="wrapper header-wrapper" >
+        <div class=header-text>
+   
+    <h1 class="site-title">Construct your texture discrimination task setup!</h1>
+</div>
+            </div>
+</header>
+<div class="page-content">
+            <div>
+            <nav class="sidebar">
+                <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+                </a>
+                <ul class="nav-list">
+                <li>
+    <a class="navhome" href="./">
+        Construct your texture discrimination task setup!
+    </a>
+</li>
+<li class="not-active">
+    <a class="not-active" href="./platform.html">
+        Construction of the elevated platform
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./platform_base.html">
+        Platform part 1: Base platform
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./mouse_tube.html">
+        Platform part 2: Mouse tube
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./head_fixation.html">
+        Platform part 3: Head fixation 
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./lick_detection.html">
+        Platform part 4: Lick detection
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./peripherals.html">
+        Construction of the peripherals
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./horizontal_motor.html">
+        Motor part 1: Horizontal motor
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./rotational_motor.html">
+        Motor part 2: Rotational motor
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./setup_electronic.html">
+        Set up of the electronics
+    </a>
+    </li>
+<li class="active">
+    <a class="active" href="./electronic.html">
+        Electronics part 1: Set up
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./script_setup.html">
+        Electronics part 2: Script initializing
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./code_usage.html">
+        Electronics part 3: Program explanation
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./training.html">
+        Information about training
+    </a>
+    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper">
+    <h1 id="electronics-part-1-set-up">Electronics part 1: Set up</h1>
+<p>Wiring:</p>
+<ul>
+<li>
+<p>Bpod flex i/o lick sensor channel 1 and ground via wire to bnc adapter in analog output of amplifier of lick detection, 
+if pieso lick sensor</p>
+</li>
+<li>
+<p>Motor just connected with arduino shield, motor connection Bnc (needs 4 times bnc to wire)</p>
+</li>
+</ul>
+<p>const int Spinpib = 13;  // Define the digital output pin                   rotating upper motor pin 
+const int latpib = 11;                                      right left movement
+const int dirpib = 8;                                               right left movement</p>
+<p>Pin for buzzer: 
+const int cue1pib = 6;                                       for buzzer</p>
+<p>usb mini in computer</p>
+<p>This step guides you the connection of the electronic devices.</p>
+<div class="pagebom">
+<h3 id="part">Parts</h3>
+<ul>
+<li>1 <a Class="bom" href="electronic/Arduino_Due0lp-ö.html">Arduino Board Due Core</a> </li>
+<li>1 <a Class="bom" href="electronic/bpod.html">bpod</a> </li>
+<li>1 <a Class="bom" href="electronic/bpod_shield.html">bpod shield</a> </li>
+<li>many <a Class="bom" href="connectors/cable_tie.html">cable ties</a> </li>
+<li>some <a Class="bom" href="electronic/circuit_board.html">circuit board</a> </li>
+<li>many <a Class="bom" href="electronic/jumper_wires.html">jumper wires</a> </li>
+</ul>
+</div>
+<h2 class="page-step" id="combine-arduinos">Step 1: Combine Arduinos</h2>
+<p><img alt="" src="images/ardu_shield.png" title="" /></p>
+<p><a href="electronic/bpod.html">bpod</a></p>
+<p><a href="electronic/bpod_shield.html">bpod shield</a></p>
+<p><a href="electronic/circuit_board.html">circuit board</a>. </p>
+<p><a href="electronic/jumper_wires.html">jumper wires</a></p>
+<p><a href="connectors/cable_tie.html">cable ties</a> </p>
+<p><a href="electronic/Arduino_Due0lp-ö.html">Arduino Board Due Core</a></p>
+<h4 id="wiring-configuration">Wiring configuration</h4>
+<hr />
+<p><a href="setup_electronic.html">Previous page</a> | <a href="script_setup.html">Next page</a></p>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="wrapper">
+        <a target="_blank" rel="noopener noreferrer" href="https://gitbuilding.io">
+    <img class="icon" src="./static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
+    <span class="info">Documentation powered by GitBuilding</span>
+</a>
+
+    </div>
+</footer></body>
+</html>
