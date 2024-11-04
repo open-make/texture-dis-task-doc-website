@@ -136,31 +136,120 @@
         </div>
         <div class="wrapper">
     <h1 id="electronics-part-3-program-explanation">Electronics part 3: Program explanation</h1>
-<h3 id="test-run" pagestep="pagestep">Test run</h3>
-<p>auto rewards: make tub variable to CL for 2 and 4</p>
-<h3 id="modifiy-variables" pagestep="pagestep">Modifiy variables</h3>
+<div class="warning-block">
+<p><strong>todo</strong> </p>
+<p>add programm screenshots</p>
+</div>
+<div class="caution-block">
+<p>specify times and how to change</p>
+</div>
+<h2 id="general-information">General information</h2>
+<p>All following informations assume that you have done the wiring exactly as indicated. This is necessary as the ports are specified in the scripts and will only work in that configuration.  </p>
+<h2 class="page-step" id="how-to-start">Step 1: How to start</h2>
+<p>Start by typing "Bpod()" in the Matlab console.</p>
+<p>This will open a window to control the Bpod where you can open another window by clicking the play button.
+This new window allows you to choose the script where you can start the preset experimental procedure.</p>
+<h2 class="page-step" id="experimental-procedure">Step 2: Experimental procedure</h2>
+<p>With the script starts one of four random cases is chosen for 100 iterations. Each case consists of a movement of the rotational motor to place the texture in the right position. Then the horizontal motor moves to present the texture to the mouse for 2 seconds. Afterwards the motor moves back and the next iterations starts.</p>
+<p>During the procedure an extra window is open which displays the sequence of cases and wether the mouse did a lick or not and if it was correct or false. The window has four lanes with circles. Each lane represents a case.</p>
+<p>Information of circles:</p>
+<ul>
+<li>Full green circle: Correctly licked</li>
+<li>Empty green circle: Wrongly not licked</li>
+<li>Full red circle: Wrongly licked</li>
+<li>Empty red circle: Correctly not licked</li>
+</ul>
+<h2 class="page-step" id="manual-controlling">Step 3: Manual controlling</h2>
+<p>In the Bpod window, which opens after typing "Bpod()" in the console, are several possibilities to control the setup by typing in specific codes.</p>
+<h3 id="movement-control">Movement control</h3>
+<p>The movement information is forwarded by numbers to the Arduino Bpod shield. Use the following numbers to do the desired movements. These movements are specified in the Arduino code file.</p>
+<h4 id="movement-codes">Movement codes</h4>
+<p>Code "1":</p>
+<ul>
+<li>Front rotation by 90°</li>
+<li>Horizontal motor movement to texture present position</li>
+</ul>
+<p>Code "2":</p>
+<ul>
+<li>Front rotation by 180°</li>
+<li>Horizontal motor movement to texture present position</li>
+</ul>
+<p>Code "3":</p>
+<ul>
+<li>Front rotation by 270°</li>
+<li>Horizontal motor movement to texture present position</li>
+</ul>
+<p>Code "4":</p>
+<ul>
+<li>Front rotation by 360°</li>
+<li>Horizontal motor movement to texture present position</li>
+</ul>
+<p>Code "5": </p>
+<ul>
+<li>Back rotation by 270°</li>
+<li>Horizontal motor movement to default/ no texture present position</li>
+</ul>
+<p>Code "6": </p>
+<ul>
+<li>Back rotation by 180°</li>
+<li>Horizontal motor movement to default/ no texture present position</li>
+</ul>
+<p>Code "7": </p>
+<ul>
+<li>Back rotation by 90°</li>
+<li>Horizontal motor movement to default/ no texture present position</li>
+</ul>
+<p>Code "8": </p>
+<ul>
+<li>No rotation</li>
+<li>Horizontal motor movement to default/ no texture present position</li>
+</ul>
+<p>Code "9":</p>
+<ul>
+<li>Make sound with buzzer.</li>
+</ul>
+<p>Code "10":</p>
+<ul>
+<li>Make a quarter turn.</li>
+</ul>
+<p>Code "11":</p>
+<ul>
+<li>Make a 1/200 turn.</li>
+</ul>
+<h3 id="reward-control">Reward control</h3>
+<p>You can manually provide rewards to the mouse by clicking "vlv1". </p>
+<p>The first click opens it and the second closes it.</p>
+<h3 id="additional-informations" pagestep="pagestep">Additional informations</h3>
 <ul>
 <li>
-<p>vlv 1 reward output because in bpod 1</p>
+<p>In the Bpod window are all s.gui variables changeable</p>
+<ul>
+<li>These are changeable during a run</li>
+</ul>
 </li>
 <li>
-<p>parameter gui pop up after start. There are all  s.gui variables changeable</p>
+<p>"flexthreshold" needs to be adjusted depending on the lick strength</p>
+</li>
+<li>
+<p>"S.GUI.Reward" specifies the amount of rewards by the opening time</p>
 </li>
 <li>
 <p>TrialTypes = randsrc(1,MaxTrials,[1 2 3 4; 0.25 0.25 0.25 0.25]); // List of cases and their probability, maybe only use two cases because of  wearing</p>
+<ul>
+<li>This specifies the cases and their probabilities </li>
+</ul>
 </li>
 <li>
 <p>Rotation speed defined by "for i in range 3000". </p>
 </li>
 <li>Lateral speed also defines as delay</li>
 </ul>
-<p>s. gui during run änderbar
-flexthreshold: wie viel lick stärke
-S.GUI.Reward: wie viel rewards</p>
 <p>rotain speed defined by 3000 variables down definiert als delay
 latspeed für lateralen geschw auch definiert als delay</p>
 <p>derzeot nur töne unterschiedlicher länge impleementiete
 als alternative arduino uno hinten dran und damit vers freqsaf</p>
+<h3 id="training-mode" pagestep="pagestep">Training mode</h3>
+<p>Follow the <a href="training.html" title="">instruction</a> to use the training mode.</p>
 <hr />
 <p><a href="script_setup.html">Previous page</a> | <a href="training.html">Next page</a></p>
     </div>
