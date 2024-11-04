@@ -7,7 +7,7 @@ This website will guide you through the whole process of building an texture dis
 The experimental setup was first published in 2018, with a paper titled [Behavioral Strategy Determines Frontal or Posterior
 Location of Short-Term Memory in Neocortex](https://doi.org/10.1016/j.neuron.2018.07.029).
 It was designed by the authors of the paper and rebuilt within Larkum Lab. 
-This documentation website was created by Fabio Reeh and reviewed by XXXX, based on the existing documentation and a own replica.
+This documentation website was created by Fabio Reeh and reviewed by XXXX, based on the existing documentation and an own replica.
 
 Gilad A, Gallero-Salas Y, Groos D, Helmchen F. Behavioral Strategy Determines Frontal or Posterior Location of Short-Term Memory in Neocortex. Neuron. 2018 Aug 22;99(4):814-828.e7. doi: 10.1016/j.neuron.2018.07.029. Epub 2018 Aug 9. PMID: 30100254.
 
@@ -121,6 +121,10 @@ We have access to a workshop, we recommend you to get the motors constructed the
 ### Disclaimer: Arduino/ BPod code complexity
 
 I order to fully use the texture discrimination task setup, you need to debug and write code for the Arduino and Bpod. The provided code works but you need to adjust it at some places to adapt it to your circumstances. 
+
+### Disclaimer: No different sounds
+
+In the version designed for the paper [Behavioral Strategy Determines Frontal or Posterior Location of Short-Term Memory in Neocortex](https://doi.org/10.1016/j.neuron.2018.07.029) multiple frequencies are used. This version can only create one frequency but changes in the amount of sounds. Forward movements of the horizontal motor happen along two short sounds and backwards movements with four sounds. The sound one can send with the code "9" is one longer sound (check documentation about how to use the program).
 
 
 ### Advice: Further development

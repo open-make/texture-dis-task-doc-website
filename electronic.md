@@ -29,14 +29,31 @@ This step guides you the connection of the electronic devices.
 
 {{BOM}}
 
-## Combine Arduinos {pagestep}
+## Connect electronic components {pagestep}
+
+- Attach the [bpod shield](electronic.yml#bpod_shield){Qty:1} to the [Arduino Board Due Core](electronic.yml#Arduino_Due0lp-ö){Qty:1}. There is only one possibility to combine them based on the labeling of pins.
+
+
+
+## 
+
+
+
+
 
 ![](images/ardu_shield.png)
 
 [bpod](electronic.yml#bpod){Qty:1}
 
+[ethernet cable](electronic.yml#ethernet_cable){Qty:1}
+
+[port interface board](electronic.yml#port_interface_board){Qty:1}
 
 [bpod shield](electronic.yml#bpod_shield){Qty:1}
+
+[solenoid pinch valve](electronic.yml#pv){Qty:1}
+
+[tube](electronic.yml#pv_tube){Qty:1}
 
 [circuit board](electronic.yml#circuit_board){Qty:some}. 
 

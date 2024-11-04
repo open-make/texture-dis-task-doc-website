@@ -13,5 +13,16 @@ possibility to see strength and adjust during the run
 
 
 
+>i **Note** 
+>i
+>i needle hold with piezo how with capacitive
+
+
+
+>!! **Warning** 
+>!!
+>!! maybe new capacity sensor
+
+
 
 
