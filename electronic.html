@@ -156,34 +156,79 @@ const int cue1pib = 6;                                       for buzzer</p>
 <div class="pagebom">
 <h3 id="part">Parts</h3>
 <ul>
-<li>2 <a Class="bom" href="electronic/Arduino_Due0lp-ö.html">Arduino Board Due Core</a> </li>
-<li>1 <a Class="bom" href="electronic/bpod.html">bpod</a> </li>
-<li>2 <a Class="bom" href="electronic/bpod_shield.html">bpod shield</a> </li>
+<li>2 <a Class="bom" href="electronic/Arduino_Due.html">Arduino Board Due Core</a> </li>
+<li>4 <a Class="bom" href="electronic/bnc_wire.html">BNC to wire connector</a> </li>
+<li>2 <a Class="bom" href="electronic/bpod.html">Bpod</a> </li>
+<li>2 <a Class="bom" href="electronic/bpod_shield.html">Bpod shield</a> </li>
+<li>1 <a Class="bom" href="electronic/buzzer.html">buzzer</a> </li>
 <li>many <a Class="bom" href="connectors/cable_tie.html">cable ties</a> </li>
-<li>some <a Class="bom" href="electronic/circuit_board.html">circuit board</a> </li>
-<li>1 <a Class="bom" href="electronic/ethernet_cable.html">ethernet cable</a> </li>
-<li>many <a Class="bom" href="electronic/jumper_wires.html">jumper wires</a> </li>
-<li>1 <a Class="bom" href="electronic/port_interface_board.html">port interface board</a> </li>
-<li>1 <a Class="bom" href="electronic/pv.html">solenoid pinch valve</a> </li>
+<li>Some <a Class="bom" href="electronic/circuit_board.html">circuit board</a> </li>
+<li>3 <a Class="bom" href="electronic/ethernet.html">ethernet cable</a> </li>
+<li>Some <a Class="bom" href="electronic/jumper_wires.html">jumper wires</a> </li>
+<li>2 <a Class="bom" href="electronic/pib.html">port interface board</a> </li>
+<li>2 <a Class="bom" href="electronic/pv.html">solenoid pinch valve</a> </li>
 <li>1 <a Class="bom" href="electronic/pv_tube.html">tube</a> </li>
 </ul>
 </div>
 <h2 class="page-step" id="connect-electronic-components">Step 1: Connect electronic components</h2>
+<p>The <a href="electronic/bpod.html">Bpod</a> is the central component where everything is connected to.</p>
+<h3 id="arduino">Arduino</h3>
 <ul>
-<li>Attach the <a href="electronic/bpod_shield.html">bpod shield</a> to the <a href="electronic/Arduino_Due0lp-ö.html">Arduino Board Due Core</a>. There is only one possibility to combine them based on the labeling of pins.</li>
+<li>
+<p>Attach the <a href="electronic/bpod_shield.html">Bpod shield</a> to the <a href="electronic/Arduino_Due.html">Arduino Board Due Core</a>. There is only one possibility to combine them based on the labeling of pins.</p>
+</li>
+<li>
+<p>Connect the <a href="electronic/bpod_shield.html" title="">Bpod shield</a> via an <a href="electronic/ethernet.html">ethernet cable</a> to the <a href="electronic/bpod.html" title="">Bpod</a>.</p>
+</li>
 </ul>
+<h3 id="solenoid-pinch-valve">Solenoid pinch valve</h3>
+<ul>
+<li>
+<p>Attach the two wires of the <a href="electronic/pv.html">solenoid pinch valve</a> to the valve connections of the <a href="electronic/pib.html">port interface board</a>. </p>
+</li>
+<li>
+<p>Connect the <a href="electronic/pib.html" title="">port interface board</a> via an <a href="electronic/ethernet.html">ethernet cable</a> to the <a href="electronic/bpod.html" title="">Bpod</a>.</p>
+</li>
+</ul>
+<h3 id="motor-to-arduino">Motor to Arduino</h3>
+<ul>
+<li>
+<p>The power supply of the motor needs to be in a plug socket.</p>
+</li>
+<li>
+<p>The four other cables of the motor need to go via a <a href="electronic/bnc_wire.html">BNC to wire connector</a> in the <a href="electronic/bpod_shield.html" title="">Bpod shield</a>.</p>
+</li>
+</ul>
+<h4 id="how-to-connect">How to connect</h4>
+<p>One wire of each <a href="electronic/bnc_wire.html" title="">BNC to wire connector</a> needs to go to a grounding. Use a <a href="electronic/circuit_board.html">circuit board</a> and <a href="electronic/jumper_wires.html">jumper wires</a> as the Arduino has not enough groundings.</p>
+<ul>
+<li>The spin connection needs to go in pin 13</li>
+<li>The lateral connection needs to go in pin 11</li>
+<li>The direction connection needs to go in pin 8</li>
+<li>The go connection needs to go in pin 4</li>
+</ul>
+<div class="caution-block">
+<p><strong>Caution</strong> </p>
+<p>Adjust connection names</p>
+</div>
+<h3 id="buzzer">Buzzer</h3>
+<p>The <a href="electronic/buzzer.html">buzzer</a> needs to go to the ground and into pin 6.</p>
+<div class="caution-block">
+<p><strong>Caution</strong> </p>
+<p>Which buzzer</p>
+</div>
 <h2 id="_1"></h2>
 <p><img alt="" src="images/ardu_shield.png" title="" /></p>
 <p><a href="electronic/bpod.html">bpod</a></p>
-<p><a href="electronic/ethernet_cable.html">ethernet cable</a></p>
-<p><a href="electronic/port_interface_board.html">port interface board</a></p>
+<p><a href="electronic/ethernet.html">ethernet cable</a></p>
+<p><a href="electronic/pib.html">port interface board</a></p>
 <p><a href="electronic/bpod_shield.html">bpod shield</a></p>
 <p><a href="electronic/pv.html">solenoid pinch valve</a></p>
 <p><a href="electronic/pv_tube.html">tube</a></p>
 <p><a href="electronic/circuit_board.html">circuit board</a>. </p>
 <p><a href="electronic/jumper_wires.html">jumper wires</a></p>
 <p><a href="connectors/cable_tie.html">cable ties</a> </p>
-<p><a href="electronic/Arduino_Due0lp-ö.html">Arduino Board Due Core</a></p>
+<p><a href="electronic/Arduino_Due.html">Arduino Board Due Core</a></p>
 <h4 id="wiring-configuration">Wiring configuration</h4>
 <hr />
 <p><a href="setup_electronic.html">Previous page</a> | <a href="script_setup.html">Next page</a></p>
